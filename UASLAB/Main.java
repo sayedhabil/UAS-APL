@@ -6,7 +6,6 @@ public class Main {
    public static void main(String[] args) {
 
       System.out.println("Selamat datang di Edd's Music");
-
       System.out.println("_______________________");
       System.out.println("Silahkan memilih player");
       System.out.println("- Spotify");
