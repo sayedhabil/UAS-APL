@@ -15,7 +15,7 @@ public class Player{
         return PlayerMethod;
     }
 
-    //Method untuk melakukan playmusic dengan metode yang dipilih
+    //Method untuk melakukan mainkanMusik dengan metode yang dipilih
     public void mainkanMusik(){
         PlayerMethod.mainkanMusik();
     }
