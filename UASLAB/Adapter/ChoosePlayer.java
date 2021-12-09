@@ -7,7 +7,7 @@ public class ChoosePlayer implements MediaSound {
    @Override
    public void play(String soundSystem, String namaLagu) {		
       
-      //mediaAdapter menyediakan dukungan untuk memutar spotify atau joox
+      //untuk membuat pemutaran joox dan spotify
       if(soundSystem.equalsIgnoreCase("joox") || soundSystem.equalsIgnoreCase("spotify")){
          soundAdapter = new Adapter(soundSystem);
          soundAdapter.play(soundSystem, namaLagu);
