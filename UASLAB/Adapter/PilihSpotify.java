@@ -2,12 +2,12 @@ package Adapter;
 
 public class PilihSpotify implements ThePlayer{
 
-   //Method yang akan mengoverride method yang ada pada class AdvancedMediaPlayer
+   //Untuk Meng-override method dari ThePlayer
    @Override
    public void mainkanJoox(String namaLagu) {
    }
 
-   //Method yang akan mengoverride method yang ada pada class AdvancedMediaPlayer
+   //Untuk Mengoverride method dari ThePlayer dan membuat class mainkanSpotify
    @Override
    public void mainkanSpotify(String namaLagu) {
       System.out.println( namaLagu + "Diputar dengan Spotify");		
