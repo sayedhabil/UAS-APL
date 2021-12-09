@@ -1,9 +1,9 @@
 package Adapter;
 
-//Merupakan sebuah class interface yang berisikan Method-Method untuk digunakan pada Class lain
+//Interface yang akan dipergunakan untuk kebutuhan class lainnya
 public interface ThePlayer {	
 
-   //method yang akan di ovveride pada class class yang diperlukan
+   //method yang akan di override pada class yang diperlukan
    public void mainkanJoox(String namaLagu);
    public void mainkanSpotify(String namaLagu);
 }
