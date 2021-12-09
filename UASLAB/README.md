@@ -1,5 +1,3 @@
-# Deskripsi
-
 Sayed Habil Al Habsyi
 1908107010065
 
